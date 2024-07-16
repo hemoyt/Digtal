@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+
+    font-family: "Poppins", sans-serif;
+
+    background: url(./bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.clock{
+    font-size: 4.5vw;
+    color: white;
+
+    text-shadow: 5px 3px 3px rgba(0, 0, 0, 0.7);
+    position: relative;
+}
+
+.clock-container{
+    padding: 2rem 6rem;
+    text-align: center;
+    width: 700px;
+ 
+    background: rgba(255, 255, 255, .03);
+    backdrop-filter: blur(3px);
+    border: 1px solid rgba(255, 255, 255, .025);
+
+    border-top-left-radius: 5rem;
+    border-bottom-right-radius: 5rem;
+
+    box-shadow: 5px 5px 10px 5px rgba(0, 0, 0, 0.42);
+}
+
+.clock-container h2{
+    font-size: 2.5vw;
+    margin-bottom: .5rem;
+}
+
+.card{
+    padding: 2rem 6rem;
+    text-align: center;
+    width: 700px;
+    /* Button styles */
+.button {
+    /* Basic styles */
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+  
+    /* Hover effect */
+    transition: background-color 0.3s;
+  }
+  .button:hover {
+    background-color: #090a09; /* Darker green on hover */
+  }
+  
+  /* Make the button responsive */
+  .button {
+    display: inline-block;
+    width: 100%; /* Make the button full-width on small screens */
+    
+  }
+  @media (min-width: 768px) {
+    .button {
+      width: auto;  
+    }
+  }
+  
+  /* Customize the button appearance */
+  .button.rounded {
+    border-radius: 20px; /* Rounded corners */
+  }
+  .button.large {
+    font-size: 24px;
+    padding: 15px 30px;
+  }
+  .button.small {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .button.outline {
+    background-color: transparent;
+    border: 2px solid #4CAF50;
+    color: #4CAF50;
+  }
+  .button.outline:hover {
+    background-color: #4CAF50;
+    color: #fff;
+  }
+  .button:hover  {
+    background-color: #dbe1f1;
+    transform: scale(1.1);
+  
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.5s;  
+  }
+}
+
